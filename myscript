@@ -2,5 +2,5 @@
 # my shell script
 echo "this is my script"
 echo "adding two numbers"
-NUMBER = $($FIRSTNUMBER+$SECONDNUMBER)
+NUMBER=$(($FIRSTNUMBER+$SECONDNUMBER))
 echo "NUMBER"
